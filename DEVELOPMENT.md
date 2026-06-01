@@ -534,6 +534,5 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 ## Support
 
 For issues, questions, or contributions:
-- **GitHub Issues**: [Report a bug or request a feature](issues/)
-- **Email**: lars.berger@hpe.com
+- **GitHub Issues**: [Report a bug or request a feature](https://github.com/laber0815/Morpheus-Appliance-Inventory-Download/issues)
 - **Documentation**: [Morpheus API Reference](https://apidocs.morpheusdata.com/reference)

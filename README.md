@@ -2,7 +2,7 @@
 
 A Python-based GUI application for connecting to HPE Morpheus Appliance via API and exporting comprehensive inventory data to multi-sheet Excel workbooks. This tool provides automated inventory gathering with detailed information extraction across clouds, cloud types, groups, networks, virtual images, service plans, network groups, network domains, layouts, instance types, clusters, hosts, instances, applications, datastores, and storage volumes.
 
-<img width="792" height="773" alt="image" src="https://github.com/user-attachments/assets/48c1471e-0392-401a-b744-70cb520a8344" />
+<img width="795" height="776" alt="image" src="https://github.com/user-attachments/assets/2679aa49-b1cc-4201-bd62-490e34ed626b" /
 
 ---
 
@@ -193,7 +193,8 @@ Click **Test Connection** to:
 [2025-12-16 14:30:15] Cloud ID: 2 Name: Dev Azure Type: Microsoft Azure Status: ok Location: eastus Servers: 18
 [2025-12-16 14:30:15] Cloud ID: 3 Name: VMware Cluster Type: VMware vCenter Status: ok Location: DC1 Servers: 156
 ```
-<img width="796" height="777" alt="image" src="https://github.com/user-attachments/assets/c4c9a9d5-6393-4fff-819f-b67e52990684" />
+<img width="790" height="778" alt="image" src="https://github.com/user-attachments/assets/d661ccbb-611c-44c9-99de-69659ccc9009" />
+
 
 
 #### Step 3: Export Configuration
@@ -232,7 +233,7 @@ Gathering detailed instance info (489 instances)...
 Exporting to Excel...
 Export complete: C:\Users\username\Downloads\morpheus_inventory.xlsx
 ```
-<img width="889" height="776" alt="image" src="https://github.com/user-attachments/assets/700875e5-4509-4797-b1b9-c45b93bd8612" />
+<img width="788" height="793" alt="image" src="https://github.com/user-attachments/assets/011cf122-1cea-47f2-82b1-bbf6878c3236" />
 
 ---
 
@@ -538,6 +539,5 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 ## Support
 
 For issues, questions, or contributions:
-- **GitHub Issues**: [Report a bug or request a feature](issues/)
-- **Email**: lars.berger@hpe.com
+- **GitHub Issues**: [Report a bug or request a feature](https://github.com/laber0815/Morpheus-Appliance-Inventory-Download/issues)
 - **Documentation**: [Morpheus API Reference](https://apidocs.morpheusdata.com/reference)

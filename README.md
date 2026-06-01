@@ -193,7 +193,8 @@ Click **Test Connection** to:
 [2025-12-16 14:30:15] Cloud ID: 2 Name: Dev Azure Type: Microsoft Azure Status: ok Location: eastus Servers: 18
 [2025-12-16 14:30:15] Cloud ID: 3 Name: VMware Cluster Type: VMware vCenter Status: ok Location: DC1 Servers: 156
 ```
-<img width="796" height="777" alt="image" src="https://github.com/user-attachments/assets/c4c9a9d5-6393-4fff-819f-b67e52990684" />
+<img width="790" height="778" alt="image" src="https://github.com/user-attachments/assets/d661ccbb-611c-44c9-99de-69659ccc9009" />
+
 
 
 #### Step 3: Export Configuration

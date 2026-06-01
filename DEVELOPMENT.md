@@ -2,8 +2,7 @@
 
 A Python-based GUI application for connecting to HPE Morpheus Appliance via API and exporting comprehensive inventory data to multi-sheet Excel workbooks. This tool provides automated inventory gathering with detailed information extraction across clouds, hosts, instances, applications, clusters, networks, network groups, network domains, virtual images, layouts, service plans, datastores, and storage volumes.
 
-![image](https://github.hpe.com/lars-berger/Morpheus-Appliance-Inventory-Download/assets/26069/7f99d385-10ef-4834-baeb-11d9a51ae8cc)
-
+<img width="793" height="778" alt="image" src="https://github.com/user-attachments/assets/e1619ed0-fd90-49b0-8b0c-76ef600d4681" />
 ---
 
 ## Table of Contents

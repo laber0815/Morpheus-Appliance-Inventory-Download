@@ -233,7 +233,7 @@ Gathering detailed instance info (489 instances)...
 Exporting to Excel...
 Export complete: C:\Users\username\Downloads\morpheus_inventory.xlsx
 ```
-<img width="889" height="776" alt="image" src="https://github.com/user-attachments/assets/700875e5-4509-4797-b1b9-c45b93bd8612" />
+<img width="788" height="793" alt="image" src="https://github.com/user-attachments/assets/011cf122-1cea-47f2-82b1-bbf6878c3236" />
 
 ---
 

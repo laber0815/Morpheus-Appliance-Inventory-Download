@@ -2,7 +2,7 @@
 
 A Python-based GUI application for connecting to HPE Morpheus Appliance via API and exporting comprehensive inventory data to multi-sheet Excel workbooks. This tool provides automated inventory gathering with detailed information extraction across clouds, cloud types, groups, networks, virtual images, service plans, network groups, network domains, layouts, instance types, clusters, hosts, instances, applications, datastores, and storage volumes.
 
-![image](https://github.hpe.com/lars-berger/Morpheus-Appliance-Inventory-Download/assets/26069/7f99d385-10ef-4834-baeb-11d9a51ae8cc)
+<img width="792" height="773" alt="image" src="https://github.com/user-attachments/assets/48c1471e-0392-401a-b744-70cb520a8344" />
 
 ---
 
@@ -132,7 +132,8 @@ Pre-built Windows executables are available in the [Releases](releases/) section
    - **API Token**: Paste your API bearer token (obtain from Morpheus: Administration → User Settings → API Access)
    - **Debug Mode**: Optional checkbox to enable debug JSON export (useful for troubleshooting)
    - **Verify SSL Certificate**: Keep enabled for trusted certificates; disable only for lab/self-signed endpoints
-![image](https://github.hpe.com/lars-berger/Morpheus-Appliance-Inventory-Download/assets/26069/df97dcec-f1f4-423d-aa1d-d9eaad034e70)
+<img width="784" height="131" alt="image" src="https://github.com/user-attachments/assets/64838171-aa1f-4e1a-82c0-286600a5b889" />
+
 
 3. **Test connection:**
    - Click **Test Connection** button
@@ -148,8 +149,7 @@ Pre-built Windows executables are available in the [Releases](releases/) section
    - Monitor progress bar and status messages
    - Wait for completion confirmation
 
-![image](https://github.hpe.com/lars-berger/Morpheus-Appliance-Inventory-Download/assets/26069/c8bcbc45-d49a-40f5-9191-5464f089712f)
-
+<img width="797" height="115" alt="image" src="https://github.com/user-attachments/assets/b4ca8a95-c6b1-4376-9d80-280e62e5b3ca" />
 
 ### Detailed Workflow
 
@@ -193,7 +193,8 @@ Click **Test Connection** to:
 [2025-12-16 14:30:15] Cloud ID: 2 Name: Dev Azure Type: Microsoft Azure Status: ok Location: eastus Servers: 18
 [2025-12-16 14:30:15] Cloud ID: 3 Name: VMware Cluster Type: VMware vCenter Status: ok Location: DC1 Servers: 156
 ```
-![image](https://github.hpe.com/lars-berger/Morpheus-Appliance-Inventory-Download/assets/26069/3caac4ad-b4bb-44e2-b4a8-a33147612ebf)
+<img width="796" height="777" alt="image" src="https://github.com/user-attachments/assets/c4c9a9d5-6393-4fff-819f-b67e52990684" />
+
 
 #### Step 3: Export Configuration
 Configure where the inventory will be saved:
@@ -231,8 +232,7 @@ Gathering detailed instance info (489 instances)...
 Exporting to Excel...
 Export complete: C:\Users\username\Downloads\morpheus_inventory.xlsx
 ```
-![image](https://github.hpe.com/lars-berger/Morpheus-Appliance-Inventory-Download/assets/26069/88d19e7c-2d83-4a2c-9ff3-ee75a5b9cfb4)
-
+<img width="889" height="776" alt="image" src="https://github.com/user-attachments/assets/700875e5-4509-4797-b1b9-c45b93bd8612" />
 
 ---
 

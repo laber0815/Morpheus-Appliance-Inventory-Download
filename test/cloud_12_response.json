@@ -1,0 +1,165 @@
+{
+  "zone": {
+    "id": 12,
+    "uuid": "c640bb56-a474-41bd-8eb4-c35ed940d013",
+    "externalId": "200355839127",
+    "name": "AWS",
+    "code": "us-west-1",
+    "labels": [
+      "Public",
+      "aws"
+    ],
+    "location": "US West (N. California)",
+    "owner": {
+      "id": 3,
+      "name": "Morpheus"
+    },
+    "accountId": 3,
+    "account": {
+      "id": 3,
+      "name": "Morpheus"
+    },
+    "visibility": "public",
+    "enabled": true,
+    "status": "syncing",
+    "statusMessage": null,
+    "statusDate": "2025-12-11T13:12:48Z",
+    "lastSync": "2025-12-11T13:07:22Z",
+    "nextRunDate": "2025-12-11T13:17:47Z",
+    "lastSyncDuration": 10998,
+    "costStatus": "ok",
+    "costStatusMessage": null,
+    "costStatusDate": "2025-12-11T01:43:57Z",
+    "costLastSyncDuration": 1664,
+    "costLastSync": "2025-12-11T01:43:55Z",
+    "zoneType": {
+      "id": 3,
+      "code": "amazon",
+      "name": "Amazon"
+    },
+    "zoneTypeId": 3,
+    "guidanceMode": "manual",
+    "agentMode": "cloudInit",
+    "userDataLinux": null,
+    "userDataWindows": null,
+    "consoleKeymap": null,
+    "costingMode": "full",
+    "serviceVersion": null,
+    "securityMode": "off",
+    "inventoryLevel": "full",
+    "timezone": null,
+    "apiProxy": null,
+    "provisioningProxy": null,
+    "networkDomain": {
+      "id": 14,
+      "name": "bw.bertramlabs.com"
+    },
+    "domainName": "bw.bertramlabs.com",
+    "regionCode": "ec2.us-west-1.amazonaws.com",
+    "autoRecoverPowerState": false,
+    "scalePriority": 1,
+    "defaultDatastoreSyncActive": true,
+    "defaultNetworkSyncActive": true,
+    "defaultFolderSyncActive": true,
+    "defaultPoolSyncActive": true,
+    "defaultSecurityGroupSyncActive": true,
+    "defaultPlanSyncActive": true,
+    "config": {
+      "accessKey": "AKIAJDXY53F4MIVSRT6A",
+      "amazon-12": "morpheus-12-9KT0RR",
+      "applianceUrl": "",
+      "configManagementId": "3",
+      "datacenterName": "",
+      "dnsIntegrationId": "",
+      "endpoint": "ec2.us-west-1.amazonaws.com",
+      "importExisting": null,
+      "secretKey": "************",
+      "serviceRegistryId": "",
+      "vpc": "vpc-4548f42d",
+      "imageStoreId": "1",
+      "configCmdbId": "12",
+      "ebsEncryption": "on",
+      "networkServer.id": "unmanaged",
+      "networkServer": {
+        "id": "unmanaged"
+      },
+      "securityMode": "off",
+      "certificateProvider": "internal",
+      "backupMode": "internal",
+      "guidance_mode": "manual",
+      "guidanceMode": false,
+      "isVpc": "true",
+      "replicationMode": "-1",
+      "securityServer": "off",
+      "kubeUrl": "https://10.100.2.229:6443",
+      "costingAccessKey": "",
+      "costingSecretKey": null,
+      "linkedAccountId": "",
+      "stsAssumeRole": "",
+      "costingBucket": "bertramlabs.billing",
+      "costingRegion": "us-west-1",
+      "costingFolder": "reports",
+      "costingReport": "cloudability",
+      "configCmId": "",
+      "configCmdbDiscovery": false,
+      "stsExternalId": "",
+      "costingReportName": "morpheus-costing",
+      "costingBucketName": "",
+      "secretKeyHash": "09ac14ab6b4426cc05595d004c320e3b95d057eaf15f95121a561e2a67327398",
+      "costingSecretKeyHash": null
+    },
+    "credential": {
+      "type": "local"
+    },
+    "imagePath": null,
+    "darkImagePath": null,
+    "dateCreated": "2017-03-05T06:43:11Z",
+    "lastUpdated": "2025-12-11T13:12:48Z",
+    "groups": [
+      {
+        "id": 23,
+        "name": "Ansible",
+        "accountId": 3
+      },
+      {
+        "id": 2,
+        "name": "Demo",
+        "accountId": 3
+      },
+      {
+        "id": 371,
+        "name": "DevTest",
+        "accountId": 3
+      },
+      {
+        "id": 50,
+        "name": "Production",
+        "accountId": 3
+      },
+      {
+        "id": 659,
+        "name": "Public Clouds",
+        "accountId": 3
+      },
+      {
+        "id": 443,
+        "name": "ServiceNow",
+        "accountId": 3
+      }
+    ],
+    "securityServer": null,
+    "networkServer": null,
+    "stats": {
+      "serverCounts": {
+        "all": 0,
+        "host": 0,
+        "hypervisor": 0,
+        "containerHost": 0,
+        "vm": 58,
+        "baremetal": 0,
+        "unmanaged": 58
+      }
+    },
+    "serverCount": 0
+  }
+}

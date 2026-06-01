@@ -1,0 +1,125 @@
+{
+  "zone": {
+    "id": 173,
+    "uuid": "ce623a70-1b7d-4b95-8ba1-0e238cdd0ef0",
+    "externalId": null,
+    "name": "H5 Demo HyperV",
+    "code": "hyperv",
+    "labels": [
+      "Private",
+      "hyperv"
+    ],
+    "location": "H5 Denver, CO",
+    "owner": {
+      "id": 3,
+      "name": "Morpheus"
+    },
+    "accountId": 3,
+    "account": {
+      "id": 3,
+      "name": "Morpheus"
+    },
+    "visibility": "public",
+    "enabled": true,
+    "status": "ok",
+    "statusMessage": null,
+    "statusDate": "2025-12-11T13:11:49Z",
+    "lastSync": "2025-12-11T13:11:42Z",
+    "nextRunDate": "2025-12-11T13:16:49Z",
+    "lastSyncDuration": 6556,
+    "costStatus": "ok",
+    "costStatusMessage": null,
+    "costStatusDate": "2025-12-11T01:30:04Z",
+    "costLastSyncDuration": 68,
+    "costLastSync": "2025-12-11T01:30:04Z",
+    "zoneType": {
+      "id": 18,
+      "code": "hyperv",
+      "name": "Hyper-V"
+    },
+    "zoneTypeId": 18,
+    "guidanceMode": "manual",
+    "agentMode": "cloudInit",
+    "userDataLinux": null,
+    "userDataWindows": null,
+    "consoleKeymap": null,
+    "costingMode": "costing",
+    "serviceVersion": null,
+    "securityMode": "off",
+    "inventoryLevel": "off",
+    "timezone": null,
+    "apiProxy": null,
+    "provisioningProxy": null,
+    "networkDomain": null,
+    "domainName": "localdomain",
+    "regionCode": null,
+    "autoRecoverPowerState": false,
+    "scalePriority": 1,
+    "defaultDatastoreSyncActive": true,
+    "defaultNetworkSyncActive": true,
+    "defaultFolderSyncActive": true,
+    "defaultPoolSyncActive": true,
+    "defaultSecurityGroupSyncActive": true,
+    "defaultPlanSyncActive": true,
+    "config": {
+      "provider": "hyperv",
+      "host": "hyperv-demo-1.ad.morpheusdata.com",
+      "workingPath": "D:\\Morpheus\\Morpheus",
+      "vmPath": "D:\\Morpheus\\VMs",
+      "diskPath": "D:\\Morpheus\\VirtualDisks",
+      "username": "svc.hyperv-demo@ad.morpheusdata.com",
+      "password": "************",
+      "applianceUrl": "",
+      "datacenterName": "",
+      "networkServer.id": "unmanaged",
+      "networkServer": {
+        "id": "unmanaged"
+      },
+      "securityServer": "off",
+      "certificateProvider": "internal",
+      "backupMode": "internal",
+      "replicationMode": "-1",
+      "dnsIntegrationId": "",
+      "serviceRegistryId": "",
+      "configManagementId": "",
+      "configCmdbId": "",
+      "configCmId": "",
+      "port": "5985",
+      "configCmdbDiscovery": false,
+      "passwordHash": "ccc5b289c10ebcbcce3187a3eb06b6337d76b5dcd8fa1490129d1de6d6671153"
+    },
+    "credential": {
+      "type": "local"
+    },
+    "imagePath": null,
+    "darkImagePath": null,
+    "dateCreated": "2021-09-27T17:36:13Z",
+    "lastUpdated": "2025-12-11T13:11:49Z",
+    "groups": [
+      {
+        "id": 2,
+        "name": "Demo",
+        "accountId": 3
+      },
+      {
+        "id": 660,
+        "name": "Private Clouds",
+        "accountId": 3
+      }
+    ],
+    "securityServer": null,
+    "networkServer": null,
+    "stats": {
+      "serverCounts": {
+        "all": 1,
+        "host": 1,
+        "hypervisor": 1,
+        "containerHost": 0,
+        "vm": 1,
+        "baremetal": 1,
+        "unmanaged": 0
+      }
+    },
+    "serverCount": 1
+  }
+}

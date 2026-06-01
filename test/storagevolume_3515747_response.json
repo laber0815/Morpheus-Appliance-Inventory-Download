@@ -1,0 +1,46 @@
+{
+  "storageVolume": {
+    "id": 3515747,
+    "name": "8055c434-4420-4b2b-a899-e6bba55da9bf",
+    "description": null,
+    "controllerId": null,
+    "controllerMountPoint": null,
+    "resizeable": true,
+    "rootVolume": true,
+    "unitNumber": "0",
+    "deviceName": "/dev/sda",
+    "deviceDisplayName": "sda",
+    "type": {
+      "id": 18,
+      "code": "nutanix-scsi",
+      "name": "scsi"
+    },
+    "typeId": 18,
+    "category": "disk",
+    "status": "provisioned",
+    "statusMessage": null,
+    "configurableIOPS": false,
+    "maxStorage": 10485760,
+    "displayOrder": 0,
+    "maxIOPS": null,
+    "uuid": "7d4b0898-85fa-4bad-907d-d36d5439bac6",
+    "active": true,
+    "zone": {
+      "id": 106,
+      "name": "Nutanix Cluster 2"
+    },
+    "zoneId": 106,
+    "datastore": {
+      "id": 357,
+      "name": "SelfServiceContainer"
+    },
+    "datastoreId": 357,
+    "storageGroup": null,
+    "namespace": null,
+    "storageServer": null,
+    "source": "SelfServiceContainer on Nutanix Cluster 2",
+    "uniqueId": null,
+    "externalId": "8055c434-4420-4b2b-a899-e6bba55da9bf",
+    "owner": null
+  }
+}

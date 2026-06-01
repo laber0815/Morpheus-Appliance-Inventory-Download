@@ -1,0 +1,648 @@
+{
+  "instance": {
+    "id": 95081,
+    "uuid": "550a80b1-62f5-4b1f-8b0b-811a77297a01",
+    "accountId": 3,
+    "tenant": {
+      "id": 3,
+      "name": "Morpheus"
+    },
+    "instanceType": {
+      "id": 371,
+      "code": "channelsvms",
+      "category": "utility",
+      "name": "Channels VMs",
+      "image": "https://demo.morpheusdata.com/storage/logos/uploads/InstanceType/371/logo/Lab Compute_original.png"
+    },
+    "group": {
+      "id": 2,
+      "name": "Demo"
+    },
+    "cloud": {
+      "id": 141,
+      "name": "AWS Labs",
+      "type": "amazon"
+    },
+    "containers": [
+      1432896
+    ],
+    "servers": [
+      496062
+    ],
+    "resources": [],
+    "connectionInfo": [
+      {
+        "ip": "10.200.21.110",
+        "port": 80,
+        "name": "Web"
+      }
+    ],
+    "layout": {
+      "id": 3051,
+      "name": "Apache ExtraPorts on Ubuntu 20.04",
+      "provisionTypeId": 11,
+      "provisionTypeCode": "amazon"
+    },
+    "plan": {
+      "id": 2,
+      "code": "amazon-t2.micro",
+      "name": "T2 Micro - 1 Core, 1GB Memory"
+    },
+    "name": "sadmcha1035",
+    "displayName": "sadmcha1035",
+    "description": "Apache Web Server on Ubuntu 20.04",
+    "environment": "demo",
+    "config": {
+      "noAgent": false,
+      "publicIpType": "none",
+      "resourcePoolId": "pool-408",
+      "type": null,
+      "cloud": "AWS Labs",
+      "name": "sadmcha1035",
+      "expireDays": 2,
+      "shutdownDays": 1,
+      "layout": {
+        "id": 3051,
+        "code": "43423bf6-945b-4e66-ae24-a525c76009a4"
+      },
+      "description": "Apache Web Server on Ubuntu 20.04",
+      "userGroup": {
+        "id": 4
+      },
+      "instanceContext": "demo",
+      "hostName": null,
+      "instanceType": {
+        "code": "channelsvms"
+      },
+      "site": {
+        "id": 2
+      },
+      "environmentPrefix": null,
+      "configId": null,
+      "memoryDisplay": "MB",
+      "expose": [],
+      "securityGroups": [
+        {
+          "id": "sg-21dd8144"
+        }
+      ],
+      "customOptions": {},
+      "createBackup": true,
+      "backup": {
+        "enabled": true,
+        "providerBackupType": -1,
+        "createBackup": true,
+        "jobAction": "new",
+        "jobRetentionCount": "1",
+        "showScheduledBackupWarning": false,
+        "backupJob": {
+          "retentionCount": 1,
+          "scheduleTypeId": 2,
+          "syntheticFullEnabled": false
+        }
+      },
+      "layoutSize": 1,
+      "lbInstances": []
+    },
+    "configGroup": null,
+    "configId": null,
+    "configRole": null,
+    "volumes": [
+      {
+        "controllerId": null,
+        "datastoreId": null,
+        "displayOrder": 0,
+        "id": 3633497,
+        "uuid": "6f13a4ec-368d-45e3-ba13-c1656c599822",
+        "maxIOPS": null,
+        "maxStorage": 21474836480,
+        "name": "root",
+        "shortName": "root",
+        "resizeable": true,
+        "planResizable": true,
+        "rootVolume": true,
+        "size": 20,
+        "storageType": 6,
+        "unitNumber": null,
+        "controllerMountPoint": null
+      }
+    ],
+    "controllers": [],
+    "interfaces": [
+      {
+        "id": "networkGroup-2",
+        "network": {
+          "id": null,
+          "group": 2,
+          "subnet": null,
+          "dhcpServer": null,
+          "name": null,
+          "pool": null
+        },
+        "ipAddress": null,
+        "networkInterfaceTypeId": null,
+        "ipMode": null
+      }
+    ],
+    "customOptions": {},
+    "instanceVersion": "Apache ExtraPorts on Ubuntu 20.04",
+    "labels": [],
+    "tags": [],
+    "evars": [
+      {
+        "name": "CHANNELS_VMS_IP",
+        "value": "0.0.0.0",
+        "export": true,
+        "masked": false
+      },
+      {
+        "name": "CHANNELS_VMS_HOST",
+        "value": "container1432896",
+        "export": true,
+        "masked": false
+      },
+      {
+        "name": "CHANNELS_VMS_PORT_WEB",
+        "value": 80,
+        "export": true,
+        "masked": false
+      },
+      {
+        "name": "CHANNELS_VMS_PORT_80_TCP_PORT",
+        "value": 80,
+        "export": true,
+        "masked": false
+      },
+      {
+        "name": "CHANNELS_VMS_PORT_80_TCP_PROTO",
+        "value": "tcp",
+        "export": true,
+        "masked": false
+      },
+      {
+        "name": "CHANNELS_VMS_PORT_80_TCP_ADDR",
+        "value": "0.0.0.0",
+        "export": true,
+        "masked": false
+      },
+      {
+        "name": "CHANNELS_VMS_PORT_80_TCP",
+        "value": "tcp://0.0.0.0:80",
+        "export": true,
+        "masked": false
+      },
+      {
+        "name": "CHANNELS_VMS_PORT_WEBSECURE",
+        "value": 443,
+        "export": true,
+        "masked": false
+      },
+      {
+        "name": "CHANNELS_VMS_PORT_443_TCP_PORT",
+        "value": 443,
+        "export": true,
+        "masked": false
+      },
+      {
+        "name": "CHANNELS_VMS_PORT_443_TCP_PROTO",
+        "value": "tcp",
+        "export": true,
+        "masked": false
+      },
+      {
+        "name": "CHANNELS_VMS_PORT_443_TCP_ADDR",
+        "value": "0.0.0.0",
+        "export": true,
+        "masked": false
+      },
+      {
+        "name": "CHANNELS_VMS_PORT_443_TCP",
+        "value": "tcp://0.0.0.0:443",
+        "export": true,
+        "masked": false
+      },
+      {
+        "name": "CHANNELS_VMS_PORT_NETDOOM",
+        "value": 666,
+        "export": true,
+        "masked": false
+      },
+      {
+        "name": "CHANNELS_VMS_PORT_666_TCP_PORT",
+        "value": 666,
+        "export": true,
+        "masked": false
+      },
+      {
+        "name": "CHANNELS_VMS_PORT_666_TCP_PROTO",
+        "value": "tcp",
+        "export": true,
+        "masked": false
+      },
+      {
+        "name": "CHANNELS_VMS_PORT_666_TCP_ADDR",
+        "value": "0.0.0.0",
+        "export": true,
+        "masked": false
+      },
+      {
+        "name": "CHANNELS_VMS_PORT_666_TCP",
+        "value": "tcp://0.0.0.0:666",
+        "export": true,
+        "masked": false
+      }
+    ],
+    "maxMemory": 1073741824,
+    "maxStorage": 21474836480,
+    "maxCores": 1,
+    "coresPerSocket": null,
+    "maxCpu": 1,
+    "hourlyCost": 0.0,
+    "hourlyPrice": 0.0,
+    "instancePrice": {
+      "price": 12.5016,
+      "cost": 12.5016,
+      "currency": "USD",
+      "unit": "month"
+    },
+    "dateCreated": "2025-12-09T09:52:20Z",
+    "lastUpdated": "2025-12-10T09:57:08Z",
+    "hostName": "sadmcha1035",
+    "domainName": null,
+    "environmentPrefix": null,
+    "firewallEnabled": true,
+    "networkLevel": "container",
+    "autoScale": false,
+    "instanceContext": "demo",
+    "currentDeployId": null,
+    "locked": false,
+    "status": "stopped",
+    "statusMessage": null,
+    "errorMessage": null,
+    "statusDate": "2025-12-09T10:26:16Z",
+    "statusPercent": null,
+    "statusEta": null,
+    "userStatus": null,
+    "expireDays": 2,
+    "renewDays": 4,
+    "expireCount": 0,
+    "expireDate": "2025-12-11T09:52:20Z",
+    "expireWarningDate": "2025-12-10T09:52:20Z",
+    "expireWarningSent": true,
+    "shutdownDays": 1,
+    "shutdownRenewDays": 1,
+    "shutdownCount": 0,
+    "shutdownDate": "2025-12-10T09:52:20Z",
+    "shutdownWarningDate": "2025-12-09T09:52:20Z",
+    "shutdownWarningSent": true,
+    "removalDate": null,
+    "createdBy": {
+      "id": 482,
+      "username": "aswath@hpe.com"
+    },
+    "owner": {
+      "id": 482,
+      "username": "aswath@hpe.com"
+    },
+    "notes": null,
+    "stats": {
+      "usedStorage": 0,
+      "maxStorage": 21474836480,
+      "usedMemory": 0,
+      "maxMemory": 1073741824,
+      "usedCpu": 0.0,
+      "cpuUsage": 0,
+      "cpuUsagePeak": 0.0,
+      "cpuUsageAvg": 0
+    },
+    "powerSchedule": null,
+    "isScalable": false,
+    "instanceThreshold": null,
+    "isBusy": false,
+    "apps": [
+      {
+        "id": 2553,
+        "name": "2-Tier Apache and MySQL 1",
+        "tier": "Web"
+      }
+    ],
+    "currentLoadBalancerInstances": [],
+    "currentLoadBalancerContainersIn": 0,
+    "currentLoadBalancerContainersOut": 0,
+    "lastDeploy": null,
+    "containerDetails": [
+      {
+        "id": 1432896,
+        "uuid": "098f8720-6947-4a22-b571-1cb9325f0737",
+        "name": "sadmcha1035_1432896",
+        "ip": "10.200.21.110",
+        "internalIp": "10.200.21.110",
+        "internalHostname": "container1432896",
+        "externalHostname": "sadmcha1035",
+        "externalDomain": "den.morpheusdata.com",
+        "externalFqdn": "sadmcha1035.den.morpheusdata.com",
+        "accountId": 3,
+        "instance": {
+          "id": 95081,
+          "name": "sadmcha1035"
+        },
+        "containerType": {
+          "id": 3312,
+          "code": "a283c0f9-7d20-43ea-aef0-db726c08bdb7",
+          "category": null,
+          "name": "Ubuntu 20.04 Extra Ports AWS"
+        },
+        "containerTypeSet": {
+          "id": 3708,
+          "code": "a283c0f9-7d20-43ea-aef0-db726c08bdb7",
+          "category": null
+        },
+        "server": {
+          "id": 496062,
+          "uuid": "37827ff0-941e-4393-a9b4-168092ad3d81",
+          "externalId": "i-02b9a94a6b6c363a6",
+          "internalId": null,
+          "externalUniqueId": null,
+          "name": "sadmcha1035",
+          "externalName": "sadmcha1035",
+          "hostname": "sadmcha1035",
+          "accountId": 3,
+          "account": {
+            "id": 3,
+            "name": "Morpheus"
+          },
+          "owner": {
+            "id": 482,
+            "username": "aswath@hpe.com"
+          },
+          "zone": {
+            "id": 141,
+            "name": "AWS Labs"
+          },
+          "plan": {
+            "id": 2,
+            "code": "amazon-t2.micro",
+            "name": "T2 Micro - 1 Core, 1GB Memory"
+          },
+          "computeServerType": {
+            "id": 47,
+            "code": "amazonVm",
+            "name": "Amazon Instance",
+            "managed": true,
+            "externalDelete": true,
+            "format": "guestVm"
+          },
+          "visibility": "private",
+          "description": null,
+          "zoneId": 141,
+          "siteId": 2,
+          "resourcePoolId": 408,
+          "folderId": null,
+          "sshHost": null,
+          "sshPort": 22,
+          "externalIp": null,
+          "internalIp": "10.200.21.110",
+          "platform": "linux",
+          "platformVersion": null,
+          "dateCreated": "2025-12-09T09:52:20Z",
+          "lastUpdated": "2025-12-10T21:12:20Z",
+          "stats": {
+            "ts": "2025-12-10T21:12:19Z",
+            "maxMemory": 1073741824,
+            "usedMemory": 0,
+            "maxStorage": 21474836480,
+            "usedStorage": null,
+            "cpuUsage": 0.0,
+            "freeMemory": 1073741824,
+            "netTxUsage": 0,
+            "netRxUsage": 0,
+            "networkBandwidth": 0,
+            "running": false
+          },
+          "status": "provisioned",
+          "statusMessage": null,
+          "errorMessage": null,
+          "statusDate": "2025-12-09T09:52:46Z",
+          "statusPercent": null,
+          "statusEta": null,
+          "powerState": "off",
+          "agentInstalled": false,
+          "lastAgentUpdate": null,
+          "agentVersion": null,
+          "maxCores": 1,
+          "maxMemory": 1073741824,
+          "maxStorage": 21474836480,
+          "maxCpu": null,
+          "hourlyCost": 0.0173633333,
+          "hourlyPrice": 0.0173633333,
+          "sourceImage": {
+            "id": 524542,
+            "code": null,
+            "name": "Ubuntu 20.04 LTS"
+          },
+          "serverOs": {
+            "id": 9,
+            "code": "ubuntu.64",
+            "name": "ubuntu 64-bit",
+            "description": null,
+            "vendor": "canonical",
+            "category": "ubuntu",
+            "osFamily": "debian",
+            "osVersion": "all",
+            "bitCount": 64,
+            "platform": "linux",
+            "owner": "System"
+          },
+          "volumes": [
+            {
+              "id": 3633497,
+              "name": "root",
+              "controllerId": null,
+              "controllerMountPoint": null,
+              "resizeable": true,
+              "planResizable": true,
+              "rootVolume": true,
+              "unitNumber": null,
+              "typeId": 6,
+              "configurableIOPS": false,
+              "datastoreId": null,
+              "maxStorage": 21474836480,
+              "displayOrder": 0,
+              "maxIOPS": null,
+              "uuid": "6f13a4ec-368d-45e3-ba13-c1656c599822",
+              "uniqueId": "morpheus-vol-95081-1432896-0",
+              "externalId": "vol-007dc0344ab579e61",
+              "internalId": null
+            }
+          ],
+          "controllers": [],
+          "interfaces": [
+            {
+              "id": 944362,
+              "refType": null,
+              "refId": null,
+              "name": "eth0",
+              "internalId": null,
+              "externalId": "eni-0953714cfcc0a3f9b",
+              "uniqueId": "morpheus-nic-95081-1432896-0",
+              "publicIpAddress": null,
+              "publicIpv6Address": null,
+              "ipAddress": "10.200.21.110",
+              "ipv6Address": null,
+              "ipSubnet": null,
+              "ipv6Subnet": null,
+              "description": "",
+              "dhcp": true,
+              "active": true,
+              "poolAssigned": false,
+              "primaryInterface": true,
+              "network": {
+                "id": 68076,
+                "name": "labs_web_1b (subnet-52afc137)"
+              },
+              "subnet": null,
+              "networkGroup": {
+                "id": 2,
+                "name": "Demo Preferred"
+              },
+              "networkPosition": null,
+              "networkPool": null,
+              "networkDomain": null,
+              "type": {
+                "id": 1,
+                "code": "standard",
+                "name": "standard"
+              },
+              "ipMode": null,
+              "macAddress": "02:ff:e6:f6:f2:f9",
+              "interfaces": []
+            }
+          ],
+          "labels": [],
+          "tags": [
+            {
+              "id": 15653213,
+              "name": "Morpheus Environment",
+              "value": "demo"
+            },
+            {
+              "id": 15653210,
+              "name": "Morpheus Id",
+              "value": "1432896"
+            },
+            {
+              "id": 15653211,
+              "name": "Morpheus Instance Id",
+              "value": "95081"
+            },
+            {
+              "id": 15653212,
+              "name": "Morpheus Server Id",
+              "value": "496062"
+            }
+          ],
+          "enabled": true,
+          "tagCompliant": null
+        },
+        "cloud": {
+          "id": 141,
+          "name": "AWS Labs"
+        },
+        "ports": [
+          {
+            "id": 22442,
+            "index": 0,
+            "external": 80,
+            "internal": 80,
+            "displayName": "Web",
+            "primaryPort": false,
+            "export": true,
+            "visible": true,
+            "exportName": "WEB",
+            "loadBalanceProtocol": "HTTP",
+            "loadBalance": true,
+            "protocol": "HTTP",
+            "link": true,
+            "externalIp": null,
+            "internalIp": null
+          },
+          {
+            "id": 22443,
+            "index": 1,
+            "external": 443,
+            "internal": 443,
+            "displayName": "WebSecure",
+            "primaryPort": false,
+            "export": true,
+            "visible": true,
+            "exportName": "WEBSECURE",
+            "loadBalanceProtocol": "HTTPS",
+            "loadBalance": true,
+            "protocol": "HTTPS",
+            "link": true,
+            "externalIp": null,
+            "internalIp": null
+          },
+          {
+            "id": 22444,
+            "index": 2,
+            "external": 666,
+            "internal": 666,
+            "displayName": "NetDoom",
+            "primaryPort": false,
+            "export": true,
+            "visible": true,
+            "exportName": "NETDOOM",
+            "loadBalanceProtocol": "TCP",
+            "loadBalance": true,
+            "protocol": "TCP",
+            "link": false,
+            "externalIp": null,
+            "internalIp": null
+          }
+        ],
+        "plan": {
+          "id": 2,
+          "code": "amazon-t2.micro",
+          "name": "T2 Micro - 1 Core, 1GB Memory"
+        },
+        "configGroup": null,
+        "configId": null,
+        "configRole": null,
+        "dateCreated": "2025-12-09T09:52:20Z",
+        "lastUpdated": "2025-12-10T21:12:20Z",
+        "statsEnabled": true,
+        "status": "stopped",
+        "userStatus": "stopped",
+        "environmentPrefix": null,
+        "stats": {
+          "maxMemory": 1073741824,
+          "usedMemory": 0,
+          "maxStorage": 21474836480,
+          "usedStorage": null,
+          "userCpuUsage": 0.0,
+          "freeMemory": 1073741824,
+          "netTxUsage": 0,
+          "netRxUsage": 0,
+          "networkBandwidth": 0,
+          "running": false
+        },
+        "runtimeInfo": {},
+        "containerVersion": null,
+        "repositoryImage": null,
+        "planCategory": null,
+        "hostname": "sadmcha1035",
+        "domainName": null,
+        "volumeCreated": true,
+        "containerCreated": true,
+        "maxStorage": 21474836480,
+        "maxMemory": 1073741824,
+        "maxCores": 1,
+        "coresPerSocket": null,
+        "maxCpu": 1,
+        "hourlyCost": 0.0,
+        "hourlyPrice": 0.017078688
+      }
+    ]
+  }
+}

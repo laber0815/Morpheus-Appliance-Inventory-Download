@@ -1,0 +1,1022 @@
+{
+  "instance": {
+    "id": 84699,
+    "uuid": "3b85102c-b303-41ab-917d-5e22adf01279",
+    "accountId": 3,
+    "tenant": {
+      "id": 3,
+      "name": "Morpheus"
+    },
+    "instanceType": {
+      "id": 71,
+      "code": "morpheus",
+      "category": "web",
+      "name": "Morpheus",
+      "image": "https://demo.morpheusdata.com/storage/logos/uploads/InstanceType/71/logo/morpheus-symbolonly-v2_original.png"
+    },
+    "group": {
+      "id": 50,
+      "name": "Production"
+    },
+    "cloud": {
+      "id": 106,
+      "name": "Nutanix Cluster 2",
+      "type": "nutanix"
+    },
+    "containers": [
+      1348006,
+      1348008,
+      1348007
+    ],
+    "servers": [
+      427604,
+      427606,
+      427605
+    ],
+    "resources": [],
+    "connectionInfo": [
+      {
+        "ip": "10.32.20.106",
+        "port": 443,
+        "name": "https"
+      },
+      {
+        "ip": "10.32.20.124",
+        "port": null,
+        "name": null
+      },
+      {
+        "ip": "10.32.23.33",
+        "port": null,
+        "name": null
+      }
+    ],
+    "layout": {
+      "id": 1024,
+      "name": "Morpheus 3-Node HA",
+      "provisionTypeId": 19,
+      "provisionTypeCode": "nutanix"
+    },
+    "plan": {
+      "id": 699,
+      "code": "nut11",
+      "name": "Nutanix Custom"
+    },
+    "name": "jwdmmor1919",
+    "displayName": "jwdmmor1919",
+    "description": null,
+    "environment": "production",
+    "config": {
+      "isVpcSelectable": true,
+      "isEC2": false,
+      "customOptions": {
+        "morph_base_ver": "7.0.3",
+        "morph_it": 1,
+        "pkgrepo": "https://downloads.morpheusdata.com"
+      },
+      "resourcePoolId": "",
+      "createUser": true,
+      "memoryDisplay": "GB",
+      "expose": [],
+      "noAgent": false,
+      "createBackup": true,
+      "backup": {
+        "createBackup": true,
+        "jobAction": "new",
+        "jobRetentionCount": "1",
+        "providerBackupType": -1
+      },
+      "shutdownDays": "1",
+      "expireDays": "2",
+      "layoutSize": 1,
+      "lbInstances": []
+    },
+    "configGroup": null,
+    "configId": null,
+    "configRole": null,
+    "volumes": [
+      {
+        "controllerId": null,
+        "datastoreId": "358",
+        "displayOrder": 0,
+        "id": 3525924,
+        "uuid": "3ec26c36-7066-48aa-9371-c6065de1422b",
+        "maxIOPS": null,
+        "maxStorage": 214748364800,
+        "name": "root",
+        "shortName": "root",
+        "resizeable": true,
+        "planResizable": true,
+        "rootVolume": true,
+        "size": 200,
+        "storageType": 18,
+        "unitNumber": "0",
+        "controllerMountPoint": null
+      }
+    ],
+    "controllers": [],
+    "interfaces": [
+      {
+        "id": "network-58874",
+        "network": {
+          "id": 58874,
+          "group": null,
+          "subnet": null,
+          "dhcpServer": true,
+          "name": "AHV Unmanaged",
+          "pool": {
+            "id": 281,
+            "name": "10.32.20.0 /22"
+          }
+        },
+        "ipAddress": null,
+        "networkInterfaceTypeId": null,
+        "ipMode": null
+      }
+    ],
+    "customOptions": {
+      "morph_base_ver": "7.0.3",
+      "morph_it": 1,
+      "pkgrepo": "https://downloads.morpheusdata.com"
+    },
+    "instanceVersion": "CentOS 9",
+    "labels": [],
+    "tags": [],
+    "evars": [
+      {
+        "name": "MORPHEUS_IP",
+        "value": "10.32.20.247",
+        "export": true,
+        "masked": false
+      },
+      {
+        "name": "MORPHEUS_HOST",
+        "value": "container1348006",
+        "export": true,
+        "masked": false
+      },
+      {
+        "name": "MORPHEUS_PORT_HTTPS",
+        "value": 443,
+        "export": true,
+        "masked": false
+      },
+      {
+        "name": "MORPHEUS_PORT_443_TCP_PORT",
+        "value": 443,
+        "export": true,
+        "masked": false
+      },
+      {
+        "name": "MORPHEUS_PORT_443_TCP_PROTO",
+        "value": "tcp",
+        "export": true,
+        "masked": false
+      },
+      {
+        "name": "MORPHEUS_PORT_443_TCP_ADDR",
+        "value": "10.32.20.247",
+        "export": true,
+        "masked": false
+      },
+      {
+        "name": "MORPHEUS_PORT_443_TCP",
+        "value": "tcp://10.32.20.247:443",
+        "export": true,
+        "masked": false
+      },
+      {
+        "name": "MORPHEUS_PORT_MQMGMNT",
+        "value": 15672,
+        "export": true,
+        "masked": false
+      },
+      {
+        "name": "MORPHEUS_PORT_15672_TCP_PORT",
+        "value": 15672,
+        "export": true,
+        "masked": false
+      },
+      {
+        "name": "MORPHEUS_PORT_15672_TCP_PROTO",
+        "value": "tcp",
+        "export": true,
+        "masked": false
+      },
+      {
+        "name": "MORPHEUS_PORT_15672_TCP_ADDR",
+        "value": "10.32.20.247",
+        "export": true,
+        "masked": false
+      },
+      {
+        "name": "MORPHEUS_PORT_15672_TCP",
+        "value": "tcp://10.32.20.247:15672",
+        "export": true,
+        "masked": false
+      },
+      {
+        "name": "MORPHEUS_IP_2",
+        "value": "10.32.20.248",
+        "export": true,
+        "masked": false
+      },
+      {
+        "name": "MORPHEUS_HOST_2",
+        "value": "container1348007",
+        "export": true,
+        "masked": false
+      },
+      {
+        "name": "MORPHEUS_IP_3",
+        "value": "10.32.20.124",
+        "export": true,
+        "masked": false
+      },
+      {
+        "name": "MORPHEUS_HOST_3",
+        "value": "container1348008",
+        "export": true,
+        "masked": false
+      }
+    ],
+    "maxMemory": 12884901888,
+    "maxStorage": 214748364800,
+    "maxCores": 4,
+    "coresPerSocket": 1,
+    "maxCpu": null,
+    "hourlyCost": 0.0,
+    "hourlyPrice": 0.0,
+    "instancePrice": {
+      "price": 590.400018432,
+      "cost": 582.000018432,
+      "currency": "USD",
+      "unit": "month"
+    },
+    "dateCreated": "2024-07-01T21:26:15Z",
+    "lastUpdated": "2025-12-10T21:09:19Z",
+    "hostName": "jwdmmor1919",
+    "domainName": null,
+    "environmentPrefix": null,
+    "firewallEnabled": true,
+    "networkLevel": "container",
+    "autoScale": false,
+    "instanceContext": "production",
+    "currentDeployId": null,
+    "locked": false,
+    "status": "stopped",
+    "statusMessage": null,
+    "errorMessage": null,
+    "statusDate": "2024-07-01T21:32:51Z",
+    "statusPercent": null,
+    "statusEta": null,
+    "userStatus": null,
+    "expireDays": null,
+    "renewDays": null,
+    "expireCount": 0,
+    "expireDate": null,
+    "expireWarningDate": null,
+    "expireWarningSent": false,
+    "shutdownDays": null,
+    "shutdownRenewDays": null,
+    "shutdownCount": 0,
+    "shutdownDate": null,
+    "shutdownWarningDate": null,
+    "shutdownWarningSent": false,
+    "removalDate": null,
+    "createdBy": {
+      "id": 236,
+      "username": "Jeff Wheeler"
+    },
+    "owner": {
+      "id": 236,
+      "username": "Jeff Wheeler"
+    },
+    "notes": null,
+    "stats": {
+      "usedStorage": 0,
+      "maxStorage": 644245094400,
+      "usedMemory": 0,
+      "maxMemory": 36604567552,
+      "usedCpu": 0.0,
+      "cpuUsage": 0,
+      "cpuUsagePeak": 0.0,
+      "cpuUsageAvg": 0
+    },
+    "powerSchedule": null,
+    "isScalable": true,
+    "instanceThreshold": null,
+    "isBusy": false,
+    "apps": [],
+    "currentLoadBalancerInstances": [],
+    "currentLoadBalancerContainersIn": 0,
+    "currentLoadBalancerContainersOut": 0,
+    "lastDeploy": null,
+    "containerDetails": [
+      {
+        "id": 1348006,
+        "uuid": "e59c54d1-a59a-49e3-a638-bee70fc80b3f",
+        "name": "jwdmmor1919_1348006",
+        "ip": "10.32.20.106",
+        "internalIp": "10.32.20.106",
+        "internalHostname": "container1348006",
+        "externalHostname": "jwdmmor1919",
+        "externalDomain": "ad.test.morpheusdata.com",
+        "externalFqdn": "jwdmmor1919.ad.test.morpheusdata.com",
+        "accountId": 3,
+        "instance": {
+          "id": 84699,
+          "name": "jwdmmor1919"
+        },
+        "containerType": {
+          "id": 969,
+          "code": "74c7ee8c-5583-4f01-9510-61f4904e9bbb",
+          "category": "master",
+          "name": "Morpheus 3 Node on CentOS 7.5 Master"
+        },
+        "containerTypeSet": {
+          "id": 3688,
+          "code": "74c7ee8c-5583-4f01-9510-61f4904e9bbb",
+          "category": null
+        },
+        "server": {
+          "id": 427604,
+          "uuid": "cec82f02-f514-4977-9e38-13601861e91f",
+          "externalId": "dabd618c-46eb-47f2-b176-18c94a3ac142",
+          "internalId": null,
+          "externalUniqueId": null,
+          "name": "jwdmmor1919",
+          "externalName": "jwdmmor1919",
+          "hostname": "jwdmmor1919",
+          "accountId": 3,
+          "account": {
+            "id": 3,
+            "name": "Morpheus"
+          },
+          "owner": {
+            "id": 236,
+            "username": "Jeff Wheeler"
+          },
+          "zone": {
+            "id": 106,
+            "name": "Nutanix Cluster 2"
+          },
+          "plan": {
+            "id": 699,
+            "code": "nut11",
+            "name": "Nutanix Custom"
+          },
+          "computeServerType": {
+            "id": 22,
+            "code": "nutanixVm",
+            "name": "Nutanix Instance",
+            "managed": true,
+            "externalDelete": true,
+            "format": "guestVm"
+          },
+          "visibility": "private",
+          "description": null,
+          "zoneId": 106,
+          "siteId": 50,
+          "resourcePoolId": null,
+          "folderId": null,
+          "sshHost": "10.32.20.106",
+          "sshPort": 22,
+          "externalIp": "10.32.20.106",
+          "internalIp": "10.32.20.106",
+          "platform": "centos",
+          "platformVersion": "5.14.0-427.el9.x86_64",
+          "dateCreated": "2024-07-01T21:26:15Z",
+          "lastUpdated": "2025-12-09T00:01:12Z",
+          "stats": {
+            "ts": "2025-03-20T05:03:41Z",
+            "freeMemory": 12201521152,
+            "maxMemory": 12201521152,
+            "usedMemory": 0,
+            "maxStorage": 214748364800,
+            "usedStorage": 0,
+            "cpuUsage": 0.0,
+            "running": false
+          },
+          "status": "provisioned",
+          "statusMessage": null,
+          "errorMessage": null,
+          "statusDate": "2024-07-01T21:28:41Z",
+          "statusPercent": null,
+          "statusEta": null,
+          "powerState": "off",
+          "agentInstalled": true,
+          "lastAgentUpdate": "2024-07-10T18:20:25Z",
+          "agentVersion": "2.6.0",
+          "maxCores": 4,
+          "maxMemory": 12884901888,
+          "maxStorage": 214748364800,
+          "maxCpu": null,
+          "hourlyCost": 0.269444453,
+          "hourlyPrice": 0.2733333419,
+          "sourceImage": {
+            "id": 625726,
+            "code": "nutanix.acropolis.image.106.539cfd78-0200-4454-80e5-303f8f75bc3d",
+            "name": "Morpheus Centos 9-stream 20240304"
+          },
+          "serverOs": null,
+          "volumes": [
+            {
+              "id": 3525924,
+              "name": "root",
+              "controllerId": null,
+              "controllerMountPoint": null,
+              "resizeable": true,
+              "planResizable": true,
+              "rootVolume": true,
+              "unitNumber": "0",
+              "typeId": 18,
+              "configurableIOPS": false,
+              "datastoreId": 358,
+              "maxStorage": 214748364800,
+              "displayOrder": 0,
+              "maxIOPS": null,
+              "uuid": "3ec26c36-7066-48aa-9371-c6065de1422b",
+              "uniqueId": "morpheus-vol-84699-1348006-0",
+              "externalId": "9a8bddb9-dd69-41cc-a631-23991f2fb239",
+              "internalId": "scsi-0"
+            }
+          ],
+          "controllers": [],
+          "interfaces": [
+            {
+              "id": 807073,
+              "refType": null,
+              "refId": null,
+              "name": "eth0",
+              "internalId": null,
+              "externalId": "50:6b:8d:82:08:11",
+              "uniqueId": "morpheus-nic-84699-1348006-0",
+              "publicIpAddress": "10.32.20.247",
+              "publicIpv6Address": null,
+              "ipAddress": "10.32.20.247",
+              "ipv6Address": null,
+              "ipSubnet": null,
+              "ipv6Subnet": null,
+              "description": null,
+              "dhcp": true,
+              "active": true,
+              "poolAssigned": false,
+              "primaryInterface": true,
+              "network": {
+                "id": 58874,
+                "name": "AHV Unmanaged"
+              },
+              "subnet": null,
+              "networkGroup": null,
+              "networkPosition": null,
+              "networkPool": {
+                "id": 281,
+                "name": "10.32.20.0 /22"
+              },
+              "networkDomain": {
+                "id": 25,
+                "name": "ad.test.morpheusdata.com"
+              },
+              "type": null,
+              "ipMode": null,
+              "macAddress": "50:6b:8d:82:08:11",
+              "interfaces": []
+            }
+          ],
+          "labels": [],
+          "tags": [],
+          "enabled": true,
+          "tagCompliant": null
+        },
+        "cloud": {
+          "id": 106,
+          "name": "Nutanix Cluster 2"
+        },
+        "ports": [
+          {
+            "id": 19893,
+            "index": 0,
+            "external": 443,
+            "internal": 443,
+            "displayName": "https",
+            "primaryPort": false,
+            "export": true,
+            "visible": true,
+            "exportName": "HTTPS",
+            "loadBalanceProtocol": "HTTPS",
+            "loadBalance": true,
+            "protocol": "HTTPS",
+            "link": true,
+            "externalIp": null,
+            "internalIp": null
+          },
+          {
+            "id": 19894,
+            "index": 1,
+            "external": 15672,
+            "internal": 15672,
+            "displayName": "mqmgmnt",
+            "primaryPort": false,
+            "export": true,
+            "visible": true,
+            "exportName": "MQMGMNT",
+            "loadBalanceProtocol": null,
+            "loadBalance": false,
+            "protocol": null,
+            "link": false,
+            "externalIp": null,
+            "internalIp": null
+          }
+        ],
+        "plan": {
+          "id": 699,
+          "code": "nut11",
+          "name": "Nutanix Custom"
+        },
+        "configGroup": null,
+        "configId": null,
+        "configRole": null,
+        "dateCreated": "2024-07-01T21:26:16Z",
+        "lastUpdated": "2025-12-10T21:09:19Z",
+        "statsEnabled": true,
+        "status": "stopped",
+        "userStatus": "stopped",
+        "environmentPrefix": null,
+        "stats": {
+          "maxMemory": 12201521152,
+          "usedMemory": 0,
+          "maxStorage": 214748364800,
+          "usedStorage": 0,
+          "userCpuUsage": 0.0,
+          "freeMemory": 12201521152,
+          "netTxUsage": 0,
+          "netRxUsage": 0,
+          "networkBandwidth": 0,
+          "running": false
+        },
+        "runtimeInfo": {},
+        "containerVersion": null,
+        "repositoryImage": null,
+        "planCategory": null,
+        "hostname": "jwdmmor1919",
+        "domainName": null,
+        "volumeCreated": true,
+        "containerCreated": true,
+        "maxStorage": 214748364800,
+        "maxMemory": 12884901888,
+        "maxCores": 4,
+        "coresPerSocket": 1,
+        "maxCpu": null,
+        "hourlyCost": 0.0,
+        "hourlyPrice": 0.277777789
+      },
+      {
+        "id": 1348007,
+        "uuid": "fd0d6d66-cf4a-43eb-aa8c-213227d57a69",
+        "name": "jwdmmor1919_1348007",
+        "ip": "10.32.23.33",
+        "internalIp": "10.32.23.33",
+        "internalHostname": "container1348007",
+        "externalHostname": "jwdmmor1920",
+        "externalDomain": "ad.test.morpheusdata.com",
+        "externalFqdn": "jwdmmor1920.ad.test.morpheusdata.com",
+        "accountId": 3,
+        "instance": {
+          "id": 84699,
+          "name": "jwdmmor1919"
+        },
+        "containerType": {
+          "id": 1708,
+          "code": "e96adc9c-4e4f-4fbc-81af-5be9aee1c0bf",
+          "category": "Slave",
+          "name": "Morpheus 3 Node CentOS Secondary"
+        },
+        "containerTypeSet": {
+          "id": 3689,
+          "code": "e96adc9c-4e4f-4fbc-81af-5be9aee1c0bf",
+          "category": null
+        },
+        "server": {
+          "id": 427605,
+          "uuid": "0f0649b7-87ff-4da0-9ce0-774961c4d294",
+          "externalId": "c82a3012-c4c3-4e5a-a99e-7e2482a611c8",
+          "internalId": null,
+          "externalUniqueId": null,
+          "name": "jwdmmor1920",
+          "externalName": "jwdmmor1920",
+          "hostname": "jwdmmor1920",
+          "accountId": 3,
+          "account": {
+            "id": 3,
+            "name": "Morpheus"
+          },
+          "owner": {
+            "id": 236,
+            "username": "Jeff Wheeler"
+          },
+          "zone": {
+            "id": 106,
+            "name": "Nutanix Cluster 2"
+          },
+          "plan": {
+            "id": 699,
+            "code": "nut11",
+            "name": "Nutanix Custom"
+          },
+          "computeServerType": {
+            "id": 22,
+            "code": "nutanixVm",
+            "name": "Nutanix Instance",
+            "managed": true,
+            "externalDelete": true,
+            "format": "guestVm"
+          },
+          "visibility": "private",
+          "description": null,
+          "zoneId": 106,
+          "siteId": 50,
+          "resourcePoolId": null,
+          "folderId": null,
+          "sshHost": "10.32.23.33",
+          "sshPort": 22,
+          "externalIp": "10.32.23.33",
+          "internalIp": "10.32.23.33",
+          "platform": "centos",
+          "platformVersion": "5.14.0-427.el9.x86_64",
+          "dateCreated": "2024-07-01T21:26:15Z",
+          "lastUpdated": "2025-12-09T00:01:12Z",
+          "stats": {
+            "ts": "2025-03-20T05:03:43Z",
+            "freeMemory": 12201533440,
+            "maxMemory": 12201533440,
+            "usedMemory": 0,
+            "maxStorage": 214748364800,
+            "usedStorage": 0,
+            "cpuUsage": 0.0,
+            "running": false
+          },
+          "status": "provisioned",
+          "statusMessage": null,
+          "errorMessage": null,
+          "statusDate": "2024-07-01T21:30:33Z",
+          "statusPercent": null,
+          "statusEta": null,
+          "powerState": "off",
+          "agentInstalled": true,
+          "lastAgentUpdate": "2025-01-28T21:04:05Z",
+          "agentVersion": "2.6.0",
+          "maxCores": 4,
+          "maxMemory": 12884901888,
+          "maxStorage": 214748364800,
+          "maxCpu": null,
+          "hourlyCost": 0.269444453,
+          "hourlyPrice": 0.2733333419,
+          "sourceImage": {
+            "id": 625726,
+            "code": "nutanix.acropolis.image.106.539cfd78-0200-4454-80e5-303f8f75bc3d",
+            "name": "Morpheus Centos 9-stream 20240304"
+          },
+          "serverOs": null,
+          "volumes": [
+            {
+              "id": 3525925,
+              "name": "root",
+              "controllerId": null,
+              "controllerMountPoint": null,
+              "resizeable": true,
+              "planResizable": true,
+              "rootVolume": true,
+              "unitNumber": "0",
+              "typeId": 18,
+              "configurableIOPS": false,
+              "datastoreId": 358,
+              "maxStorage": 214748364800,
+              "displayOrder": 0,
+              "maxIOPS": null,
+              "uuid": "bd7b3c0b-5c8d-4ec9-99e1-ec7d30450286",
+              "uniqueId": "morpheus-vol-84699-1348007-0",
+              "externalId": "b5b819cf-3b07-43ee-ad8c-44ec81f8d014",
+              "internalId": "scsi-0"
+            }
+          ],
+          "controllers": [],
+          "interfaces": [
+            {
+              "id": 807074,
+              "refType": null,
+              "refId": null,
+              "name": "eth0",
+              "internalId": null,
+              "externalId": "50:6b:8d:6e:b6:73",
+              "uniqueId": "morpheus-nic-84699-1348007-0",
+              "publicIpAddress": "10.32.20.248",
+              "publicIpv6Address": null,
+              "ipAddress": "10.32.20.248",
+              "ipv6Address": null,
+              "ipSubnet": null,
+              "ipv6Subnet": null,
+              "description": null,
+              "dhcp": true,
+              "active": true,
+              "poolAssigned": false,
+              "primaryInterface": true,
+              "network": {
+                "id": 58874,
+                "name": "AHV Unmanaged"
+              },
+              "subnet": null,
+              "networkGroup": null,
+              "networkPosition": null,
+              "networkPool": {
+                "id": 281,
+                "name": "10.32.20.0 /22"
+              },
+              "networkDomain": {
+                "id": 25,
+                "name": "ad.test.morpheusdata.com"
+              },
+              "type": null,
+              "ipMode": null,
+              "macAddress": "50:6b:8d:6e:b6:73",
+              "interfaces": []
+            }
+          ],
+          "labels": [],
+          "tags": [],
+          "enabled": true,
+          "tagCompliant": null
+        },
+        "cloud": {
+          "id": 106,
+          "name": "Nutanix Cluster 2"
+        },
+        "ports": [],
+        "plan": {
+          "id": 699,
+          "code": "nut11",
+          "name": "Nutanix Custom"
+        },
+        "configGroup": null,
+        "configId": null,
+        "configRole": null,
+        "dateCreated": "2024-07-01T21:26:16Z",
+        "lastUpdated": "2025-12-10T21:09:19Z",
+        "statsEnabled": true,
+        "status": "stopped",
+        "userStatus": "stopped",
+        "environmentPrefix": null,
+        "stats": {
+          "maxMemory": 12201533440,
+          "usedMemory": 0,
+          "maxStorage": 214748364800,
+          "usedStorage": 0,
+          "userCpuUsage": 0.0,
+          "freeMemory": 12201533440,
+          "netTxUsage": 0,
+          "netRxUsage": 0,
+          "networkBandwidth": 0,
+          "running": false
+        },
+        "runtimeInfo": {},
+        "containerVersion": null,
+        "repositoryImage": null,
+        "planCategory": null,
+        "hostname": "jwdmmor1920",
+        "domainName": null,
+        "volumeCreated": true,
+        "containerCreated": true,
+        "maxStorage": 214748364800,
+        "maxMemory": 12884901888,
+        "maxCores": 4,
+        "coresPerSocket": 1,
+        "maxCpu": null,
+        "hourlyCost": 0.0,
+        "hourlyPrice": 0.277777789
+      },
+      {
+        "id": 1348008,
+        "uuid": "25e7d0b6-f151-42dc-b44b-c5bc39dd0529",
+        "name": "jwdmmor1919_1348008",
+        "ip": "10.32.20.124",
+        "internalIp": "10.32.20.124",
+        "internalHostname": "container1348008",
+        "externalHostname": "jwdmmor1921",
+        "externalDomain": "ad.test.morpheusdata.com",
+        "externalFqdn": "jwdmmor1921.ad.test.morpheusdata.com",
+        "accountId": 3,
+        "instance": {
+          "id": 84699,
+          "name": "jwdmmor1919"
+        },
+        "containerType": {
+          "id": 1708,
+          "code": "e96adc9c-4e4f-4fbc-81af-5be9aee1c0bf",
+          "category": "Slave",
+          "name": "Morpheus 3 Node CentOS Secondary"
+        },
+        "containerTypeSet": {
+          "id": 3689,
+          "code": "e96adc9c-4e4f-4fbc-81af-5be9aee1c0bf",
+          "category": null
+        },
+        "server": {
+          "id": 427606,
+          "uuid": "1d2c6c5d-2c43-4f59-99e2-318c7178e0ed",
+          "externalId": "8432ed79-47a4-4857-b8a4-9ce5b0178471",
+          "internalId": null,
+          "externalUniqueId": null,
+          "name": "jwdmmor1921",
+          "externalName": "jwdmmor1921",
+          "hostname": "jwdmmor1921",
+          "accountId": 3,
+          "account": {
+            "id": 3,
+            "name": "Morpheus"
+          },
+          "owner": {
+            "id": 236,
+            "username": "Jeff Wheeler"
+          },
+          "zone": {
+            "id": 106,
+            "name": "Nutanix Cluster 2"
+          },
+          "plan": {
+            "id": 699,
+            "code": "nut11",
+            "name": "Nutanix Custom"
+          },
+          "computeServerType": {
+            "id": 22,
+            "code": "nutanixVm",
+            "name": "Nutanix Instance",
+            "managed": true,
+            "externalDelete": true,
+            "format": "guestVm"
+          },
+          "visibility": "private",
+          "description": null,
+          "zoneId": 106,
+          "siteId": 50,
+          "resourcePoolId": null,
+          "folderId": null,
+          "sshHost": "10.32.20.124",
+          "sshPort": 22,
+          "externalIp": "10.32.20.124",
+          "internalIp": "10.32.20.124",
+          "platform": "centos",
+          "platformVersion": "5.14.0-427.el9.x86_64",
+          "dateCreated": "2024-07-01T21:26:16Z",
+          "lastUpdated": "2025-12-09T00:01:12Z",
+          "stats": {
+            "ts": "2025-03-20T05:03:44Z",
+            "freeMemory": 12201512960,
+            "maxMemory": 12201512960,
+            "usedMemory": 0,
+            "maxStorage": 214748364800,
+            "usedStorage": 0,
+            "cpuUsage": 0.0,
+            "running": false
+          },
+          "status": "provisioned",
+          "statusMessage": null,
+          "errorMessage": null,
+          "statusDate": "2024-07-01T21:32:23Z",
+          "statusPercent": null,
+          "statusEta": null,
+          "powerState": "off",
+          "agentInstalled": true,
+          "lastAgentUpdate": "2025-01-09T09:13:14Z",
+          "agentVersion": "2.6.0",
+          "maxCores": 4,
+          "maxMemory": 12884901888,
+          "maxStorage": 214748364800,
+          "maxCpu": null,
+          "hourlyCost": 0.269444453,
+          "hourlyPrice": 0.2733333419,
+          "sourceImage": {
+            "id": 625726,
+            "code": "nutanix.acropolis.image.106.539cfd78-0200-4454-80e5-303f8f75bc3d",
+            "name": "Morpheus Centos 9-stream 20240304"
+          },
+          "serverOs": null,
+          "volumes": [
+            {
+              "id": 3525926,
+              "name": "root",
+              "controllerId": null,
+              "controllerMountPoint": null,
+              "resizeable": true,
+              "planResizable": true,
+              "rootVolume": true,
+              "unitNumber": "0",
+              "typeId": 18,
+              "configurableIOPS": false,
+              "datastoreId": 358,
+              "maxStorage": 214748364800,
+              "displayOrder": 0,
+              "maxIOPS": null,
+              "uuid": "7aae0d6d-6fe2-44e3-866b-66640a3a8737",
+              "uniqueId": "morpheus-vol-84699-1348008-0",
+              "externalId": "dac96c5e-8b2c-49b8-bd2c-a0d173d1120c",
+              "internalId": "scsi-0"
+            }
+          ],
+          "controllers": [],
+          "interfaces": [
+            {
+              "id": 807075,
+              "refType": null,
+              "refId": null,
+              "name": "eth0",
+              "internalId": null,
+              "externalId": "50:6b:8d:ab:93:bc",
+              "uniqueId": "morpheus-nic-84699-1348008-0",
+              "publicIpAddress": "10.32.21.37",
+              "publicIpv6Address": null,
+              "ipAddress": "10.32.21.37",
+              "ipv6Address": null,
+              "ipSubnet": null,
+              "ipv6Subnet": null,
+              "description": null,
+              "dhcp": true,
+              "active": true,
+              "poolAssigned": false,
+              "primaryInterface": true,
+              "network": {
+                "id": 58874,
+                "name": "AHV Unmanaged"
+              },
+              "subnet": null,
+              "networkGroup": null,
+              "networkPosition": null,
+              "networkPool": {
+                "id": 281,
+                "name": "10.32.20.0 /22"
+              },
+              "networkDomain": {
+                "id": 25,
+                "name": "ad.test.morpheusdata.com"
+              },
+              "type": null,
+              "ipMode": null,
+              "macAddress": "50:6b:8d:ab:93:bc",
+              "interfaces": []
+            }
+          ],
+          "labels": [],
+          "tags": [],
+          "enabled": true,
+          "tagCompliant": null
+        },
+        "cloud": {
+          "id": 106,
+          "name": "Nutanix Cluster 2"
+        },
+        "ports": [],
+        "plan": {
+          "id": 699,
+          "code": "nut11",
+          "name": "Nutanix Custom"
+        },
+        "configGroup": null,
+        "configId": null,
+        "configRole": null,
+        "dateCreated": "2024-07-01T21:26:16Z",
+        "lastUpdated": "2025-12-10T21:09:19Z",
+        "statsEnabled": true,
+        "status": "stopped",
+        "userStatus": "stopped",
+        "environmentPrefix": null,
+        "stats": {
+          "maxMemory": 12201512960,
+          "usedMemory": 0,
+          "maxStorage": 214748364800,
+          "usedStorage": 0,
+          "userCpuUsage": 0.0,
+          "freeMemory": 12201512960,
+          "netTxUsage": 0,
+          "netRxUsage": 0,
+          "networkBandwidth": 0,
+          "running": false
+        },
+        "runtimeInfo": {},
+        "containerVersion": null,
+        "repositoryImage": null,
+        "planCategory": null,
+        "hostname": "jwdmmor1921",
+        "domainName": null,
+        "volumeCreated": true,
+        "containerCreated": true,
+        "maxStorage": 214748364800,
+        "maxMemory": 12884901888,
+        "maxCores": 4,
+        "coresPerSocket": 1,
+        "maxCpu": null,
+        "hourlyCost": 0.0,
+        "hourlyPrice": 0.277777789
+      }
+    ]
+  }
+}

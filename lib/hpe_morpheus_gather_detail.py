@@ -13,8 +13,8 @@ from lib.hpe_extract_cloud_data import extract_cloud_data
 from lib.logger import logger
 
 # Application version information
-__version__ = "0.2.19"
-__build_date__ = "05/22/2026 14:18:45"
+__version__ = "0.2.20"
+__build_date__ = "06/03/2026 09:55:48"
 __author__ = "Lars Berger (lars.berger@hpe.com)"
 
 # Debug flag

@@ -13,6 +13,7 @@ from datetime import datetime
 import threading
 import re
 import sys
+import platform
 
 # Add lib directory to path
 lib_path = Path(__file__).parent / 'lib'
@@ -589,6 +590,12 @@ class MorpheusInventoryApp:
 
 
 def main():
+    logger.info(f"Application Version: {__version__}")
+    logger.info(f"Build Date: {__build_date__}")
+    logger.info(f"Client OS: {platform.platform()}")
+    logger.info(f"Python Version: {sys.version.split()[0]}")
+    logger.info(f"Tkinter Version: {tk.TkVersion}")
+
     root = tk.Tk()
     app = MorpheusInventoryApp(root)
     root.mainloop()

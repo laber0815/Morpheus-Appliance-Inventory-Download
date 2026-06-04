@@ -132,8 +132,8 @@ Pre-built Windows executables are available in the [Releases](releases/) section
    - **API Token**: Paste your API bearer token (obtain from Morpheus: Administration → User Settings → API Access)
    - **Debug Mode**: Optional checkbox to enable debug JSON export (useful for troubleshooting)
    - **Verify SSL Certificate**: Keep enabled for trusted certificates; disable only for lab/self-signed endpoints
-<img width="784" height="131" alt="image" src="https://github.com/user-attachments/assets/64838171-aa1f-4e1a-82c0-286600a5b889" />
 
+<img width="772" height="125" alt="image" src="https://github.com/user-attachments/assets/35e50acb-f181-452f-ba04-e6a6377363d7" />
 
 3. **Test connection:**
    - Click **Test Connection** button
@@ -149,7 +149,7 @@ Pre-built Windows executables are available in the [Releases](releases/) section
    - Monitor progress bar and status messages
    - Wait for completion confirmation
 
-<img width="797" height="115" alt="image" src="https://github.com/user-attachments/assets/b4ca8a95-c6b1-4376-9d80-280e62e5b3ca" />
+<img width="777" height="107" alt="image" src="https://github.com/user-attachments/assets/ccdd420f-04a4-468a-b8c6-e91165be5a43" />
 
 ### Detailed Workflow
 
@@ -517,7 +517,6 @@ Check detailed logs in `logs/` directory for:
 ## Author
 
 **Lars Berger**  
-Email: lars.berger@hpe.com  
 Organization: Hewlett Packard Enterprise
 
 ---
@@ -526,7 +525,7 @@ Organization: Hewlett Packard Enterprise
 
 MIT License
 
-Copyright (c) 2025 Lars Berger / Hewlett Packard Enterprise
+Copyright (c) 2025 Hewlett Packard Enterprise
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 

@@ -90,7 +90,7 @@ openpyxl>=3.1.0        # Excel file format support
 
 1. **Clone the repository:**
    ```powershell
-   git clone https://github.hpe.com/lars-berger/Morpheus-Appliance-Inventory-Download.git
+   git clone https://github.com/laber0815/Morpheus-Appliance-Inventory-Download.git
    cd Morpheus-Appliance-Inventory-Download
    ```
 
@@ -129,7 +129,7 @@ Pre-built Windows executables are available in the [Releases](releases/) section
 
 2. **Configure connection settings:**
    - **Morpheus URL**: Enter your appliance URL (e.g., `https://morpheus.company.com`)
-   - **API Token**: Paste your API bearer token (obtain from Morpheus: Administration → User Settings → API Access)
+   - **API Token**: Paste your API bearer token (obtain from Morpheus: User Icon → User Settings → API Access)
    - **Debug Mode**: Optional checkbox to enable debug JSON export (useful for troubleshooting)
    - **Verify SSL Certificate**: Keep enabled for trusted certificates; disable only for lab/self-signed endpoints
 

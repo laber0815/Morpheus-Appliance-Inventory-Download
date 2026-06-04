@@ -2,8 +2,8 @@
 Script to extract specific instance data from Morpheus API JSON response
 """
 # Application version information
-__version__ = "0.1.30"
-__build_date__ = "06/03/2026 09:55:46"
+__version__ = "0.1.31"
+__build_date__ = "06/04/2026 12:55:03"
 __author__ = "Lars Berger (lars.berger@hpe.com)"
 
 import json

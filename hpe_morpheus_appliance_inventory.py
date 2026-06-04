@@ -24,8 +24,8 @@ from lib.hpe_morpheus_gather_detail import gather_cloud_list_details, gather_clo
 from lib import logger
 
 # Application version information
-__version__ = "0.2.21"
-__build_date__ = "06/03/2026 09:55:44"
+__version__ = "0.2.22"
+__build_date__ = "06/04/2026 12:55:00"
 __author__ = "Lars Berger (lars.berger@hpe.com)"
 
 class MorpheusInventoryApp:

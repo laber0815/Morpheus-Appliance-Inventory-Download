@@ -2,8 +2,8 @@
 Script to extract specific server data from Morpheus API JSON response
 """
 # Application version information
-__version__ = "0.1.24"
-__build_date__ = "06/04/2026 12:55:04"
+__version__ = "0.1.25"
+__build_date__ = "06/04/2026 12:59:46"
 __author__ = "Lars Berger (lars.berger@hpe.com)"
 
 import json

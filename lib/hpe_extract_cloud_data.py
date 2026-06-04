@@ -2,8 +2,8 @@
 Script to extract specific cloud data from Morpheus API JSON response
 """
 # Application version information
-__version__ = "0.1.22"
-__build_date__ = "06/04/2026 12:55:03"
+__version__ = "0.1.23"
+__build_date__ = "06/04/2026 12:59:44"
 __author__ = "Lars Berger (lars.berger@hpe.com)"
 
 import json
